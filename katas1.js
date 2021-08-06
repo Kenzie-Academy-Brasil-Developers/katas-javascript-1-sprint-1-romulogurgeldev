@@ -53,7 +53,7 @@ function multiplesOfFive() {
   Write a for or a while loop
   return the result */
   let meuRetorno = [];
- for (let i = 0; i <= 100; i++) {
+ for (let i = 1; i <= 100; i++) {
      //código
      if (i%5==0){
      meuRetorno.push(i);
@@ -90,7 +90,7 @@ function countingBackwards() {
   Write a for or a while loop
   return the result */
   let meuRetorno = [];
-  for (let i = 20; i > 0; i--) {
+  for (let i = 20; i >= 1; i--) {
       //código
  meuRetorno.push(i);
   }
@@ -107,7 +107,7 @@ function evenNumbersBackwards() {
   Write a for or a while loop
   return the result */
   let meuRetorno = [];
-  for (let i = 20; i > 1; i--) {
+  for (let i = 20; i >= 1; i--) {
       //código
       if (i%2==0){
       meuRetorno.push(i);
@@ -144,7 +144,7 @@ function multiplesOfFiveBackwards() {
   Write a for or a while loop
   return the result */
   let meuRetorno = [];
-  for (let i = 100; i > 1; i--) {
+  for (let i = 100; i >= 1; i--) {
       //código
       if (i%5==0){
       meuRetorno.push(i);
