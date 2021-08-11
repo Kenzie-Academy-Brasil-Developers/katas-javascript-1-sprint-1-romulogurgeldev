@@ -73,7 +73,7 @@ function squareNumbers() {
   let meuRetorno = [];
  for (let i = 1; i<= 100; i++) {
      //código
-     if (Math.sqrt(i)%1===0){
+     if (i**(1/2)%1===0){
   meuRetorno.push(i);
      }
  }
@@ -164,7 +164,7 @@ function squareNumbersBackwards() {
   let meuRetorno = [];
   for (let i = 100; i>= 1; i--) {
       //código
-      if (Math.sqrt(i)%1===0){
+      if (i**(1/2)%1===0){
    meuRetorno.push(i);
       }
   }
